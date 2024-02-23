@@ -14,7 +14,7 @@ const Results: React.FC<Props> = ({ winner, handleReset }) => {
           <p className='font-bold'>{winner}</p>
         </div>
       )}
-      {winner == 'Draw' && <h1 className='text-5xl font-bold'>Draw !!!</h1>}
+      {winner == 'Draw' && <h1 className=' text-2xl font-bold md:text-5xl'>Draw !!!</h1>}
       <button className='rounded-md bg-indigo-500 p-2 text-xl text-black md:p-4 md:text-2xl' onClick={handleReset}>
         Restart Game
       </button>

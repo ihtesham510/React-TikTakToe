@@ -11,7 +11,7 @@ export const TikTakToe: React.FC = () => {
     [null, null, null],
     [null, null, null],
   ])
-  console.table(arr)
+  // console.table(arr)
   const [winner, setWinner] = useState<TypeResults>(null)
   const [turn, setTurn] = useState<Array>(null)
   const updateArrayValue = (rowIndex: number, colIndex: number, newValue: Array) => {
