@@ -14,7 +14,7 @@ const Grid: React.FC<Props> = ({ arr, changeValues }) => {
               key={itemIndex}
               onClick={() => changeValues(arrayIndex, itemIndex)}
               disabled={item ? true : false}
-              className='text-bold h-40 w-40 bg-gray-800 text-6xl text-white'
+              className='text-bold h-24 w-24 bg-gray-800 text-3xl text-white md:h-40 md:w-40 md:text-6xl'
             >
               {item}
             </button>
